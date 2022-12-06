@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="ja">
-  <head>
+
+<head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,11 +10,47 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <title>licorne-bonheur</title>
 
   <style>
+    /* body {
+      background-image: linear-gradient(-45deg, #f9f8f7 25%, #ffffff 25%, #ffffff 50%, #f9f8f7 50%, #f9f8f7 75%, #ffffff 75%, #ffffff);
+      background-size: 120px 120px;
+    } */
+
+    .main-color {
+      color: #bcb29f;
+    }
+
+    .bg-main-color {
+      background-color: #bcb29f;
+    }
+
+    .mincho {
+      font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    }
+
+    .gothic {
+      font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    }
+
+    /* 文字の間隔を広げる */
+    h1 {
+      letter-spacing: 0.2em;
+    }
+
+    /* イタリック */
+    h2 {
+      font-style: italic;
+    }
+
+    p {
+      line-height: 2.5rem;
+    }
+
     .cover-img {
       background-image: url(images/img_works06.jpg);
       background-repeat: no-repeat;
@@ -30,7 +67,23 @@
 
     .object-fit-cover {
       position: absolute;
-      object-fit: contain;
+      object-fit: cover;
+    }
+
+    .text-pink {
+      color: hotpink;
+    }
+
+    .gray {
+      filter: grayscale(100%);
+    }
+
+    .height-300 {
+      height: 400px;
+    }
+
+    .height-200 {
+      height: 200px;
     }
   </style>
 
@@ -41,21 +94,26 @@
     <!-- Just an image -->
     <nav class="navbar navbar-expand-sm navbar-light justify-content-center my-5 flex-sm-column">
       <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" width="40" height="40" alt="logo">
+        <!-- <img src="images/logo.png" width="40" height="40" alt="logo"> -->
+        <h1 class="text-center mb-0">CELENA</h1>
+        <h6 class="text-center mincho">〜からだリセットサロン〜</h6>
       </a>
 
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav my-3">
           <a class="nav-item nav-link mx-5" href="index.html">Home</a>
           <a class="nav-item nav-link mx-5" href="index.html#About">About</a>
+          <a class="nav-item nav-link mx-5" href="index.html#Pricelist">Price list</a>
           <a class="nav-item nav-link mx-5" href="index.html#Contact">Contact</a>
         </div>
       </div>
     </nav>
   </header>
+
 
   <main>
 
@@ -92,18 +150,26 @@
   </main>
 
 
-  <footer class="bg-light mt-5 py-5">
+  <footer class="bg-main-color mt-5 py-5">
     <div class="container">
       <a href="user-policy.html">利用規約</a>
     </div>
-    <div class="text-center">
-      <small>(c)licorne-bonheur</small>
+    <div class="text-center text-white">
+      <small>(c)CELENA</small>
     </div>
   </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body></html>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
