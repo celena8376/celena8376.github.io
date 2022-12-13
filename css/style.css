@@ -1,0 +1,69 @@
+    /* body {
+      background-image: linear-gradient(-45deg, #f9f8f7 25%, #ffffff 25%, #ffffff 50%, #f9f8f7 50%, #f9f8f7 75%, #ffffff 75%, #ffffff);
+      background-size: 120px 120px;
+    } */
+
+    .main-color {
+      color: #bcb29f;
+    }
+
+    .bg-main-color {
+      background-color: #bcb29f !important;
+    }
+
+    .mincho {
+      font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    }
+
+    .gothic {
+      font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    }
+
+    /* 文字の間隔を広げる */
+    h1 {
+      letter-spacing: 0.2em;
+    }
+
+    /* イタリック */
+    h2 {
+      font-style: italic;
+      color: #bcb29f;
+      text-align: center;
+    }
+
+    p {
+      line-height: 2.5rem;
+    }
+
+    .cover-img {
+      background-image: url(images/img_works06.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-color: rgba(255, 255, 255, 0.4);
+      background-blend-mode: lighten;
+    }
+
+    .object-fit-contain {
+      object-fit: contain;
+    }
+
+    .object-fit-cover {
+      object-fit: cover;
+    }
+
+    .text-pink {
+      color: hotpink;
+    }
+
+    .gray {
+      filter: grayscale(100%);
+    }
+
+    .height-300 {
+      height: 400px;
+    }
+
+    .height-200 {
+      height: 200px;
+    }
