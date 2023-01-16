@@ -35,15 +35,15 @@
       line-height: 2.5rem;
     }
 
-    a {
+    header a {
       color: inherit;
     }
 
-    a:hover {
+    header a:hover {
       color: inherit;
     }
 
-    a:visited {
+    header a:visited {
       color: inherit;
     }
 
