@@ -39,6 +39,14 @@
       color: inherit;
     }
 
+    a:hover {
+      color: inherit;
+    }
+
+    a:visited {
+      color: inherit;
+    }
+
     .cover-img {
       background-image: url(images/img_works06.jpg);
       background-repeat: no-repeat;
